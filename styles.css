@@ -1,0 +1,188 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Verdana', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f0f4f8; /* Light soft blue background */
+    padding: 0 200px;
+}
+
+/* Header styles */
+header {
+    background: linear-gradient(to right, #6a82fb, #fc5c7d); /* Gradient header */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+/* Navigation styles */
+.navbar {
+    margin: 20px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.navbar ul li {
+    position: relative;
+}
+
+.navbar ul li a {
+    color: #ffffff; /* White text for navigation */
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    background-color: #fc5c7d; /* Accent color on hover */
+}
+
+/* Home section */
+#home {
+    display: flex;
+    align-items: center;
+    margin: 40px 0;
+    padding: 20px;
+    border: 1px solid #eaeaea; /* Light border */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to right, #ffffff, #e1f5fe); /* Soft gradient for home section */
+    gap: 100px;
+}
+
+#home img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    border: 4px solid #6a82fb; /* Blue border */
+    margin-right: 20px; /* Space between image and text */
+}
+
+#home p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* About section */
+#about {
+    padding: 40px;
+    margin: 20px 0;
+    border-radius: 8px;
+    background: linear-gradient(to right, #ffffff, #e1f5fe); /* Soft gradient for about section */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#about h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #6a82fb; /* Header color */
+}
+
+#about p {
+    font-size: 1rem;
+    text-align: center;
+    color: #555; /* Slightly darker text for contrast */
+}
+
+/* Project section styles */
+#project {
+    padding: 40px;
+    margin: 20px 0;
+    background: linear-gradient(to right, #ffffff, #e3f2fd); /* Light gradient for projects */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Centering text in the section */
+}
+
+#project h2 {
+    margin-bottom: 20px; /* Space below heading */
+    color: #6a82fb; /* Header color */
+}
+
+#project ul li {
+    font-size: 1rem; /* Font size for list items */
+    margin: 10px 0; /* Space between list items */
+    text-align: center; /* Center align text in list items */
+    color: #333; /* Darker text for readability */
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Remove padding */
+}
+
+/* Skills section */
+#skills {
+    padding: 40px;
+    margin: 20px 0;
+    background: linear-gradient(to right, #ffffff, #e3f2fd); /* Light gradient for projects */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Centering text in the section */
+}
+
+#skills h2 {
+    margin-bottom: 20px; /* Space below heading */
+    color: #6a82fb; /* Header color */
+}
+
+#skills ul {
+    font-size: 1rem; /* Font size for list items */
+    margin: 10px 0; /* Space between list items */
+    text-align: center; /* Center align text in list items */
+    color: #333; /* Darker text for readability */
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Remove padding */
+}
+
+#skills li{
+    font-size: 1rem; /* Font size for list items */
+    text-align: center; /* Center align text in list items */
+    color: #333; /* Darker text for readability */
+}
+
+/* Contact section */
+#contact {
+    padding: 40px;
+    margin: 20px 0;
+    background: linear-gradient(to right, #ffffff, #e1f5fe); /* Soft gradient for contact section */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#contact p{
+    font-weight: normal;
+    text-align: center;
+}
+
+#contact h2 {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #6a82fb; /* Header color */
+}
+
+/* Footer section */
+footer {
+    background: linear-gradient(to right, #6a82fb, #fc5c7d); /* Gradient footer */
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+footer h5 {
+    font-size: 0.9rem;
+}
